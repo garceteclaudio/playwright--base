@@ -7,7 +7,7 @@ export default defineConfig({
   retries: process.env.CI ? 2 : 0,
   
   //Máximo de 3 workers en paralelo
-  workers: 3,
+  workers: 2,
 
   reporter: 'html',
   use: {

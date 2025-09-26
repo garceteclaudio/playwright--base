@@ -2,12 +2,13 @@ const { chromium } = require("playwright");
 const { expect, test } = require("@playwright/test");
 
 (async () => {
+  URL = "";
   const browser = await chromium.launch({ headless: false });
   // Contexto
   const context = await browser.newContext();
   const page = await context.newPage();
 
-  await page.goto("file:///C:/Users/clau/Desktop/html%20ejemplo/index.html");
+  await page.goto(URL);
 
   await page.waitForTimeout(2000);
 
