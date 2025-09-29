@@ -1,0 +1,14 @@
+{
+  "loginUsernameInput": {
+    "locator": "//*[@id='user-nameee']",
+    "description": "username input"
+  },
+  "loginPasswordInput": {
+    "locator": "#password",
+    "description": "password input"
+  },
+  "loginButton": {
+    "locator": "#login-button",
+    "description": "button to login to the home"
+  }
+}
